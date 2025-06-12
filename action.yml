@@ -9,7 +9,7 @@ runs:
 inputs:
   text:
     description: Text to send to Slack, in Slack's "mrkdwn" format - required.
-    required: true
+    required: false
   color:
     description: The colour of the Slack attachment.
     required: false
